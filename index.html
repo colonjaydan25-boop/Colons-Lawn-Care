@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colons Lawn Care & Clean Up</title>
+<meta name="description" content="Professional lawn care, landscaping, and property clean-up services.">
+<style>
+:root{--green:#20c463;--dark:#080b09;--card:#111713;--light:#f4f7f5;--muted:#aeb8b1}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--dark);color:var(--light);line-height:1.6}
+a{text-decoration:none;color:inherit}
+header{position:sticky;top:0;z-index:10;background:rgba(8,11,9,.94);backdrop-filter:blur(10px);border-bottom:1px solid #1d2820}
+nav{max-width:1100px;margin:auto;padding:16px 22px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:20px;font-weight:900;letter-spacing:.5px}.logo span{color:var(--green)}
+nav a{margin-left:22px;font-weight:700;font-size:14px}
+.btn{display:inline-block;background:var(--green);color:#041108;padding:13px 20px;border-radius:9px;font-weight:900;border:0;cursor:pointer}
+.hero{min-height:78vh;display:flex;align-items:center;background:radial-gradient(circle at 80% 30%,#164c2b 0,#080b09 45%);padding:80px 22px}
+.wrap{max-width:1100px;margin:auto;width:100%}
+.hero h1{font-size:clamp(42px,8vw,78px);line-height:.98;max-width:800px;text-transform:uppercase}
+.hero h1 span{color:var(--green)}
+.hero p{max-width:650px;color:var(--muted);font-size:18px;margin:25px 0}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.outline{border:1px solid #344239;padding:12px 20px;border-radius:9px;font-weight:800}
+section{padding:75px 22px}.section-title{text-align:center;margin-bottom:38px}
+.section-title h2{font-size:38px}.section-title p{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--card);border:1px solid #1d2820;border-radius:15px;padding:25px}
+.icon{font-size:32px;margin-bottom:12px}.card h3{margin-bottom:8px}.card p{color:var(--muted)}
+.about{background:#0d120f}.aboutgrid{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}.about h2{font-size:42px}.about p{color:var(--muted);margin:15px 0}
+.checks{list-style:none}.checks li{margin:10px 0}.checks li:before{content:"✓";color:var(--green);font-weight:bold;margin-right:10px}
+.pay{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:20px}.pay span{border:1px solid #2b382f;padding:10px 16px;border-radius:30px;font-weight:800}
+.contact{background:var(--green);color:#061008}.contact .section-title p{color:#17351f}
+.contactbox{max-width:650px;margin:auto;background:#071009;border-radius:18px;padding:28px;color:white}
+input,textarea{width:100%;padding:14px;margin:7px 0 12px;border-radius:8px;border:1px solid #324237;background:#111713;color:white}
+textarea{min-height:120px;resize:vertical}
+footer{padding:30px 22px;text-align:center;color:var(--muted);border-top:1px solid #1d2820}
+@media(max-width:760px){nav .links{display:none}.grid,.aboutgrid{grid-template-columns:1fr}.hero{min-height:70vh;padding-top:60px}.section-title h2,.about h2{font-size:32px}}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<div class="logo">COLONS <span>LAWN CARE</span></div>
+<div class="links"><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+<a class="btn" href="#contact">Get a Quote</a>
+</nav>
+</header>
+
+<main>
+<section class="hero">
+<div class="wrap">
+<p style="color:var(--green);font-weight:900;letter-spacing:2px">LAWN CARE • LANDSCAPING • CLEAN UP</p>
+<h1>Clean yards.<br><span>Fresh look.</span></h1>
+<p>Professional lawn care and landscaping services to keep your property looking clean, sharp, and well-maintained.</p>
+<div class="actions"><a class="btn" href="#contact">Request a Quote</a><a class="outline" href="#services">View Services</a></div>
+</div>
+</section>
+
+<section id="services">
+<div class="wrap">
+<div class="section-title"><h2>Our Services</h2><p>Reliable service for your home or property.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">🌱</div><h3>Lawn Mowing</h3><p>Regular mowing, trimming, edging, and clean-up for a sharp finished look.</p></div>
+<div class="card"><div class="icon">🌳</div><h3>Landscaping</h3><p>Mulch, planting, bed cleanups, hedge trimming, and property improvements.</p></div>
+<div class="card"><div class="icon">🧹</div><h3>Yard Clean Up</h3><p>Leaves, brush, branches, debris, and general outdoor cleanups.</p></div>
+<div class="card"><div class="icon">✂️</div><h3>Trimming & Edging</h3><p>Detailed trimming and crisp edges around lawns, beds, walkways, and borders.</p></div>
+<div class="card"><div class="icon">🍂</div><h3>Seasonal Cleanups</h3><p>Get your property ready for spring, summer, fall, or winter.</p></div>
+<div class="card"><div class="icon">🏡</div><h3>Property Maintenance</h3><p>One-time jobs or recurring maintenance tailored to your property.</p></div>
+</div>
+</div>
+</section>
+
+<section id="about" class="about">
+<div class="wrap aboutgrid">
+<div><p style="color:var(--green);font-weight:900">WHY CHOOSE US</p><h2>We care about the details.</h2><p>At Colons Lawn Care & Clean Up, we focus on dependable service, clean results, and making your property look its best.</p><a class="btn" href="#contact">Book Your Service</a></div>
+<ul class="checks"><li>Quality workmanship</li><li>Clean and professional results</li><li>One-time and recurring service</li><li>Residential property care</li><li>Friendly, reliable service</li></ul>
+</div>
+</section>
+
+<section>
+<div class="wrap">
+<div class="section-title"><h2>Easy Payment Options</h2><p>We make getting paid simple and convenient.</p></div>
+<div class="pay"><span>Apple Cash</span><span>Cash App</span><span>Venmo</span><span>Cash</span></div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="section-title"><h2>Get Your Free Quote</h2><p>Tell us what you need done and we'll get back to you.</p></div>
+<div class="contactbox">
+<form action="mailto:YOUR-EMAIL@example.com" method="post" enctype="text/plain">
+<label>Name</label><input name="Name" required>
+<label>Phone</label><input name="Phone" type="tel" required>
+<label>What do you need?</label><textarea name="Request" placeholder="Tell us about your lawn or project..." required></textarea>
+<button class="btn" type="submit">Send Quote Request</button>
+</form>
+</div>
+</section>
+</main>
+
+<footer>
+<strong>COLONS LAWN CARE & CLEAN UP</strong><br>
+Professional Lawn Care • Landscaping • Clean Up<br><br>
+© 2026 Colons Lawn Care & Clean Up. All rights reserved.
+</footer>
+</body>
+</html>
